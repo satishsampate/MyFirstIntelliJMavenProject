@@ -3,5 +3,6 @@ public class MyMainApplication {
 
         System.out.println("This is my maven project in git.");
         System.out.println("This is my maven project in git.");
+        System.out.println("This is my maven project in git.");
     }
 }
