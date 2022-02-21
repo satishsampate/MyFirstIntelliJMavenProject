@@ -12,6 +12,7 @@ public class Person {
     private int empId;
     private String department;
     private String phoneNumber;
+    private final String myName ="NewName";
     public String getFirstName() {
         return firstName;
     }
