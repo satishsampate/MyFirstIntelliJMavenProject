@@ -3,13 +3,15 @@ import jdk.jfr.DataAmount;
 public class Person {
 
 
-
     private String firstName;
     private String lastName;
     int age ;
     private String address;
     private String city;
     private String location;
+    private int empId;
+    private String department;
+    private String phoneNumber;
     public String getFirstName() {
         return firstName;
     }
@@ -31,6 +33,7 @@ public class Person {
         this.firstName = firstName;
         this.lastName = lastName;
     }
+
 
     public int getAge() {
         return age;
@@ -62,5 +65,40 @@ public class Person {
 
     public void setLocation(String location) {
         this.location = location;
+    }
+    public int getEmpId() {
+        return empId;
+    }
+
+    public void setEmpId(int empId) {
+        this.empId = empId;
+    }
+
+    public String getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(String department) {
+        this.department = department;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", empId=" + empId +
+                ", department='" + department + '\'' +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                '}';
+
     }
 }
